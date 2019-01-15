@@ -1,0 +1,13 @@
+:root {
+    --blue: #0099ff;
+    --gray: #6b6b47;
+    --brown: #804000;
+    --teal: #99ebff;
+    --navy: #00001a;
+    --gold: #ffd700;
+
+    --fancyFont: 'Gloria+Hallelujah', cursive;
+    --sansSerif: 'Fira Sans', sans-serif;
+    --serifFont: 'Oswald', sans-serif;
+
+}

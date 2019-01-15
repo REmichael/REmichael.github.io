@@ -6,25 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Gloria+Hallelujah|Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">Michael Reardon</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#home">Michael Reardon</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Profolio</a>
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -36,7 +36,73 @@
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <a class="btn btn-danger btn-lar" href="#" role="button">Learn more</a>
             </div>
+<!--About Section-->
+<section id="about"></section>
 
+<!-- Protfolio Section-->
+<section id="portfolio"></section>
+
+<!--Contact Section-->
+<section id="contact"></section>
+    <div class="container">
+        <h2 class="text-center text-uppercase">Contact Me</h2>
+        <div class="row">
+          <form action="https://formspree.io/reardon.e.michael@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                  >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+ 
 <!--JavaScript Tags-->
 <!--Always goes to the bottom-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
