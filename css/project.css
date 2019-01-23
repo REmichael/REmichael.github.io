@@ -1,0 +1,10 @@
+#project {
+    background-color: var(--gray);
+    height: 600px;
+    text-align: center;
+    
+}
+
+#project h1 {
+    margin: 0%;
+}
