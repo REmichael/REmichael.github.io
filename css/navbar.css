@@ -3,6 +3,18 @@
 }
 
 .navbar-brand {
-    font-family: var(--fancyFont);
+    font-family: var(--sansSerif2);
 }
 
+.display-4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.lead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}

@@ -1,10 +1,27 @@
 #project {
-    background-color: var(--gray);
-    height: 600px;
-    text-align: center;
-    
+    background-image: url(../assests/img/pexels-photo-1092364.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 #project h1 {
     margin: 0%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
+}
+
+.col-4 h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+#imagebuttons {
+    width: 22vw; 
+    height: 40vh;
+    margin-left: 3em;
 }

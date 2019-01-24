@@ -16,7 +16,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#home">Home</a>
+    <a class="navbar-brand" href="#home">CircleCityCode</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,16 +44,24 @@
       <i class="fab fa-facebook fa-2x"></i></a>
     <a href="" target="_blank">
       <i class="fab fa-instagram fa-2x"></i></a>
-
+    <a href="" target="_blank">
+      <i class="fab fa-twitter fa-2x"></i></a>
   </nav>
+
+  <!--Header-->
   <div class="background">
-    <div class="jumbotron" style="background-image: url(../javascriptlibrary\2-javascript-projects\Portfolio\assests\img\timthumb.jpeg); background-position: bottom;">
+    <div class="jumbotron-fluid" style="background-image: url(../javascriptlibrary\2-javascript-projects\Portfolio\assests\img\timthumb.jpeg); background-position: bottom;">
       <div class="container">
         <br>
         <br>
         <br>
         <br>
-        <h1 class="display-4">Michael Reardon</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="display-4">MICHAEL REARDON</h1>
         <p class="lead text-center">[Front End Developer]</p>
       </div>
     </div>
@@ -61,77 +69,111 @@
 
   <!-- About Section-->
   <section id="about">
-    <div id=about class="container">
+    <div id=about1 class="container">
       <a id="about"></a>
       <br>
-      <h1>About</h1>
+      <div class="row">
+        <div class="col-8">
+        </div>
+        <div class="col-4">
+          <h1 class="text-center">Bio</h1>
+          <p class="bio">I love meeting new people, and learning new things, challenging myself to become a better person one day at a time.
+            <br>I have been a freelance photographer and videographer for over 6yrs. My passion for technology and the
+            belief in myself has lead me to this great new venture as a web developer. The knowledge and skills that
+            I've learned at the Eleven fifty academy has given me the ability to become a potential assest to companies
+            alike looking for talent.</p>
+          <button class="button"><a href="./assests/img/resume/1.jpg" download>Download Resume</a></button>
+        </div>
+      </div>
     </div>
   </section>
 
   <!--Projects Section-->
   <section id="project">
-    <div id=portfolio class="container">
+    <div id=portfolio class="container-fluid">
       <a id="portfolio"></a>
       <br>
-      <h1>Portfolio</h1>
+      <h1>PORTFOLIO</h1>
+      <br>
+      <br>
+      <br>
       <div class="row">
         <div class="col-4">
           <h2>CSS Creature</h2>
-          <a href="https://codepen.io/michael-hdi/" target="_blank"><img src="./assests/img/cssCreature.jpeg" alt="CSS Creature"></a>
+          <a href="https://codepen.io/michael-hdi/" target="_blank"><img src="./assests/img/cssCreature.jpeg" id="imagebuttons"
+              alt="CSS Creature"></a>
         </div>
         <div class="col-4">
           <h2>API</h2>
-
+          <a href="https://spacexmusk-59d43.firebaseapp.com/" target="_blank"><img src="./assests/img/SpaceX.png" id="imagebuttons" alt="SpaceX APi"></a>
         </div>
         <div class="col-4">
           <h2>Tutorial Webpage</h2>
-          <a href=""></a>
+          <a href="https://remichael.github.io/tutorial_Webpage/" target="_blank"><img src="./assests/img/tutorial_Webpage.png"
+              id="imagebuttons" alt="Tutorial Webpage"></a>
         </div>
       </div>
     </div>
   </section>
 
   <!--Contact Section-->
-  <section id="contact"></section>
-  <div class="container">
-    <a id="contact"></a>
-    <br>
-    <h2 class="text-center text-uppercase">Contact Me</h2>
-    <div class="row">
-      <form action="https://formspree.io/reardon.e.michael@gmail.com" method="POST">
-        <div class="control-group">
-          <div class="form-group">
-            <label>Name</label>
-            <input type="text" class="form-control" placeholder="Your Name" id="name" required
-              data-validation-required-message="Please enter your name" name="name">
-            <p class="help-block text-danger"></p>
+  <section id="contact">
+    <div class="container">
+      <a id="contact"></a>
+      <br>
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <form action="https://formspree.io/reardon.e.michael@gmail.com" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <label class="label">Name</label>
+              <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                data-validation-required-message="Please enter your name" name="name">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <div class="form-group">
-            <label>Email Address</label>
-            <input type="email" class="form-control" placeholder="Your Email" id="email" required
-              data-validation-required-message="Please enter your email" name="_replyto">
-            <p class="help-block text-danger"></p>
+          <div class="control-group">
+            <div class="form-group">
+              <label class="label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                data-validation-required-message="Please enter your email" name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <div class="form-group">
-            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-              data-validation-required-message="Please leave a message" name="message"></textarea>
-            <p class="help-block text-danger"></p>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                data-validation-required-message="Please leave a message" name="message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-        </div>
-        <div class="text-center">
-          <div id="success"></div>
-          <button type="submit" class="btn btn-lg btn-black">
-            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-            Send Message
-          </button>
-        </div>
-      </form>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <section id="footer">
+      <div class="container">
+        <span class="ccc">&copy;2019 Circle City Code </span>
+        <ul id="menuFooter">
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><address><a href="mailto:michael.hdi@gmail.com">michael.hdi@gmail.com</a></address></li>
+          <li class="byMR">Website by Michael Reardon</li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+
 
   <!--JavaScript Tags-->
   <!--Always goes to the bottom-->

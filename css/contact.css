@@ -1,3 +1,27 @@
 #contact {
-    background: var(--gray);
+    background-image: url(../assests/img/computer.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#contact h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
+}
+
+.text {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7vh;
+}
+
+.label {
+    color: black
+}
+
+.btn {
+    color: black;
 }
